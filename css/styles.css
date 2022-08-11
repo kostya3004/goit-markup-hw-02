@@ -1,0 +1,67 @@
+:root {
+    --brand-color: #2196F3;
+}
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+.logo,
+.logo>span {
+    font-family: Raleway;
+    font-Weight: 700;
+    text-decoration: none;
+    line-height: 1.19;
+    font-size: 26px;
+    color: #000;
+}
+.logo>span,
+header li>a:hover,
+header li>a:focus  {
+    color: var(--brand-color)
+}
+header *{
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    text-decoration: none;
+    list-style-type: none;
+}
+.contacts{
+    color: #757575;
+}
+
+/* KNOPKA! */
+.our-advantages h3{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.our-advantages p{
+    color: #757575;
+    line-height: 1.7;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.team h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.team p{
+    font-size: 16px;
+    color: #757575;
+}
