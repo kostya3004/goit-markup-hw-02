@@ -6,6 +6,20 @@
 /* .link {
     text-decoration: none;
 } */
+/* * {
+    box-sizing: border-box;
+}
+h1,h2,h3,p {
+    margin-top: 0; margin-bottom: 0;
+} 
+ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+address {
+        font-style: normal;
+} */
 li {
     list-style-type: none;
 }
@@ -145,7 +159,7 @@ address *{
     color: #FFF;
     background-color: var(--accent-color);
 }
-.portfolio-list h3 {
+.portfolio-list h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -160,3 +174,4 @@ address *{
     background-color: #FFF;
     border: 1px solid #EEEEEE;
 }
+
