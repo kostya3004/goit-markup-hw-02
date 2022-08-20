@@ -6,7 +6,7 @@
 /* .link {
     text-decoration: none;
 } */
-/* * {
+/* {
     box-sizing: border-box;
 }
 h1,h2,h3,p {
@@ -45,6 +45,9 @@ button {
 body {
     font-family: Roboto, sans-serif;
     color: var(--main-color);
+    background-color: #FFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 /* HEADER */
 .logo-header,
@@ -83,6 +86,7 @@ header *{
 .order-btn {
     font-size: 16px;
     font-weight: 700;
+    line-height: 1.9;
     color: #FFF;
     background-color: var(--accent-color);
     border: none;
@@ -171,7 +175,6 @@ address *{
     color: var(--secondary-color);
 }
 .portfolio-list-item {
-    background-color: #FFF;
     border: 1px solid #EEEEEE;
 }
 
